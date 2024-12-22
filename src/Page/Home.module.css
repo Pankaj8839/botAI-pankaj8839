@@ -1,0 +1,148 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background: linear-gradient(180deg, rgba(215, 199, 244, 0.2) 0%, rgba(151, 133, 186, 0.2) 100%);
+    min-height: 100vh;
+    max-height: auto;
+
+}
+.home h1{
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35.16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; 
+    color:#9785BA;
+
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width:98%;
+    min-height: 100vh;
+    max-height: auto;
+ 
+}
+.centreContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    width:100%;
+
+}
+.centreContainer h2{
+font-family: Ubuntu;
+font-size: 28px;
+font-weight: 500;
+line-height: 32.17px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+.centreContainer img{
+    width: 65.3px;
+    height: 69px;
+    top: 290px;
+    left: 710px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.chatContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    margin-top: 10px;
+    width:100%;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    gap:10px 60px;
+
+
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 80px;
+    width:98%;
+    margin-left: 10px;
+    gap:10px;
+    position: sticky; 
+    bottom: 20px;
+ 
+}
+.buttonContainer input{
+    width: 1100px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #9785BA;
+    border-radius: 10px;   
+    padding-left: 20px; 
+}
+
+.answerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: 300px;
+    width:100%;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    gap:10px 60px;
+}
+.modalContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width:35vw;
+}
+.modalHeaderContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width:100%;
+}
+.idea{
+    width: 30px;
+    height: 32px;
+}
+.close{
+    width: 16px;
+height: 20px;
+cursor: pointer;
+
+
+}
+.modalContainer textarea{
+    width:95%;
+    height: 100px;
+    background: #FFFFFF;
+    border: 2px solid #9785BA;
+    border-radius: 10px;
+}
+.modalbuttonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width:98%;
+    margin-top: 10px;
+}

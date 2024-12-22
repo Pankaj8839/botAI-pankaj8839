@@ -1,0 +1,71 @@
+.pastchat{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(215, 199, 244, 0.2) 0%, rgba(151, 133, 186, 0.2) 100%);
+    gap:25px;
+ 
+}
+.pastchat h1{
+    font-family: Ubuntu;
+font-size: 28px;
+font-weight: 400;
+line-height: 32.17px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 80px;
+
+}
+.container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width:98%;
+    margin-left: 10px;
+    gap:30px;
+ 
+
+}
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap:0;
+    background: linear-gradient(90deg, #BFACE2 0%, #D7C7F4 100%);
+
+}
+.feedbackContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    gap:50px;
+    margin-left: 50px;
+  
+  
+}
+.feedbackContainer span{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.emptyContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 50px;
+}

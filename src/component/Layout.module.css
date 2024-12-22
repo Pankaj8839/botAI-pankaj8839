@@ -1,0 +1,12 @@
+.layout{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width:100vw;  
+    height:auto;
+}
+
+.main{
+    width:80%;
+    height: auto
+}
